@@ -16,7 +16,6 @@ public class RNReactNativeSystemAlertsPackage implements ReactPackage {
       return Arrays.<NativeModule>asList(new RNReactNativeSystemAlertsModule(reactContext));
     }
 
-    @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
       return Collections.emptyList();
     }
