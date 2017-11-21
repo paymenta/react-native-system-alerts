@@ -16,7 +16,6 @@ public class RNReactNativeSystemAlertsModule extends ReactContextBaseJavaModule 
     this.reactContext = reactContext;
   }
 
-  @Override
   public String getName() {
     return "RNReactNativeSystemAlerts";
   }
